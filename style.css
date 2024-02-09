@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #092b5a;
+    position: relative;
+    height: 120px; /* Adicionando uma altura para a .header */
+    z-index: 1;
+}
+#menu {
+    position: absolute;
+    top: 0; /* Posicionando no topo da coluna */
+    left: 0%;
+    height: 8%;
+    transform: translateX(-10%);
+}
+#Volkquiz{
+    position: absolute;
+    top: 8%;
+    left: 12%;
+    width: 15%;
+    height: 100%;
+}
+#camisa{
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    width: 10%;
+    height: 100%;
+}
+#engrenagem-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 30%;
+    overflow: hidden; /* Oculta qualquer parte da imagem que exceda os limites do container */
+}
+#engrenagem {
+    position: absolute;
+    bottom: -30%; /* Posicionando a engrenagem parcialmente fora da parte inferior do container */
+    right: -35%; /* Posicionando a engrenagem parcialmente fora da parte direita do container */
+    height: 120%;
+    width: 110%;
+}
+
+#logo {
+    position: absolute;
+    bottom: 2%; /* Posicionando no final da coluna */
+    left: 2%;
+    height: 10%;
+    width: 95%;
+    transform: translateX(-1%);
+}
+
+.dashboard {
+    background-color: #5a85bf;
+    width: 5%;
+    height: 100%; /* Definindo altura como 100% para ocupar a altura total da página */
+    position: absolute;
+    z-index: 2; /* Definindo um valor de z-index maior para a .dashboard */
+    left: 0%;
+}
